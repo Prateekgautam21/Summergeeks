@@ -1,0 +1,17 @@
+{% extends 'geekapp/index.html' %}
+{% block prateek %}
+
+    <div class="Container">
+        <div class="form">
+                <form action="{% url 'end' %}" method="POST">
+                    {% csrf_token %}
+                    <div class="form-item">
+                            <label for="email">Email</label>
+                            <input type="email" name="useremail" id="email" required>
+                    </div>
+                    <input type="submit" name="" id="btn" value="End">
+                </form>
+        </div>
+    </div>
+
+{% endblock %}

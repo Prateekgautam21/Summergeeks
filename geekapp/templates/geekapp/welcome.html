@@ -1,0 +1,16 @@
+{% extends 'geekapp/index.html' %}
+
+{% block prateek %}
+
+   <div class="Container">
+        <div class="header">
+                <h1>Welcome to the website</h1>
+                <p>{{ visitor.name }}</p>
+        </div>
+    
+        <div class="form">
+            <button onclick="window.location.href = '/geeks/index' " id="btn">Back</button>
+            <button onclick="window.location.href = '/geeks/end' " id="btn">End meeting</button>
+        </div>  
+   </div>
+{% endblock %}

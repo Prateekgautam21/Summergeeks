@@ -1,0 +1,36 @@
+{% extends 'geekapp/index.html' %}
+
+{% block prateek %}
+
+<div class="Container">
+                
+        <div class="header">
+            <h1>Host registration form.</h1>
+        </div>
+
+        <div class="form">
+            <form method='POST' action="{% url 'host' %}">
+                    {% csrf_token %}
+                    <div class="form-item">
+                        <label for="name">Name</label>
+                        <input type="text" name="fullname" id="name" required>
+                    </div>
+                    
+                    <div class="form-item">
+                        <label for="email">Email</label>
+                        <input type="email" name="useremail" id="email" required>
+                    </div>
+                    
+                    <div class="form-item">
+                        <label for=phone>Phone</label>
+                        <input type="text" name="phonenumber" id="phone" required maxlength="12" pattern="[0-9]{10}">
+                    </div>
+                    
+                    <input type="submit" name="" id="btn" value="Submit">
+            </form>
+        </div>
+</div>
+    <div class="footer">
+        <div><a href="{% url 'index' %}" >Visitor?</a></div>
+    </div>
+{% endblock %}
