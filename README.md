@@ -29,9 +29,9 @@ When visitor checks-out
 
 Example of the mails the host and visitor will get-
 
-![mail](https://i.imgur.com/oc9p2Ha.png)
+![mail](https://i.imgur.com/8DKMiTJ.png)
 
 On check-out this is mail that visitor will recieve
-![recieve](https://i.imgur.com/QpOHr8h.png)
+![recieve](https://i.imgur.com/guIXquO.png)
 
 The mail used in here is just for test purpose. Thank you.
