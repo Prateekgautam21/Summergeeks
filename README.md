@@ -22,7 +22,7 @@ Visitor Info-
 ![](https://i.imgur.com/d0Aeo2c.png)
 When visitor checks in
 ![](https://i.imgur.com/HPEZH5s.png)
-End the meeting
+Asking for email-id when meeting ends-
 ![](https://i.imgur.com/vs3lQyl.png)
 When visitor checks-out
 ![](https://i.imgur.com/rdqe9bm.png)
@@ -34,4 +34,4 @@ Example of the mails the host and visitor will get-
 On check-out this is mail that visitor will recieve
 ![recieve](https://i.imgur.com/QpOHr8h.png)
 
-The mail used in here is just for test purpose.
+The mail used in here is just for test purpose. Thank you.
