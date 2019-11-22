@@ -17,15 +17,15 @@ A very basic management applications that handles a visitor's check-in and check
 Here are some screenshots of the app-
 
 Home Page-
-![](https://i.imgur.com/2zCnfdF.png)
+![](https://i.imgur.com/Aj5PjBl.png)
 Visitor Info-
-![](https://i.imgur.com/d0Aeo2c.png)
+![](https://i.imgur.com/ncKeCWc.png)
 When visitor checks in
-![](https://i.imgur.com/HPEZH5s.png)
+![](https://i.imgur.com/g0Xy45O.png)
 Asking for email-id when meeting ends-
-![](https://i.imgur.com/vs3lQyl.png)
+![](https://i.imgur.com/ivq9375.png)
 When visitor checks-out
-![](https://i.imgur.com/rdqe9bm.png)
+![](https://i.imgur.com/23lkwaD.png)
 
 Example of the mails the host and visitor will get-
 
