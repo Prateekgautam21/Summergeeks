@@ -32,7 +32,7 @@ Example of the mails the host and visitor will get-
 ![mail](https://i.imgur.com/8DKMiTJ.png)
 
 On check-out this is mail that visitor will recieve
-![recieve](https://i.imgur.com/guIXquO.png)
+![recieve](https://i.imgur.com/WDOWRUh.png)
 
 ## Technology Stack-
 - Django
