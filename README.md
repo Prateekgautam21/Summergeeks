@@ -23,8 +23,7 @@ Here are some screenshots of the app-
 ![When visitor checks-out](https://i.imgur.com/rdqe9bm.png)
 
 Example of the mails the host and visitor will get-
-!(mail)[https://i.imgur.com/oc9p2Ha.png]
+![mail](https://i.imgur.com/oc9p2Ha.png)
 
-On check-out this is mail that visitor will 
-
-!(recieve)[https://i.imgur.com/QpOHr8h.png]
+On check-out this is mail that visitor will recieve
+![recieve](https://i.imgur.com/QpOHr8h.png)
