@@ -18,12 +18,16 @@ Here are some screenshots of the app-
 
 Home Page-
 ![](https://i.imgur.com/Aj5PjBl.png)
+
 Visitor Info-
 ![](https://i.imgur.com/ncKeCWc.png)
+
 When visitor checks in
 ![](https://i.imgur.com/g0Xy45O.png)
+
 Asking for email-id when meeting ends-
 ![](https://i.imgur.com/ivq9375.png)
+
 When visitor checks-out
 ![](https://i.imgur.com/23lkwaD.png)
 
