@@ -7,33 +7,38 @@ import datetime
 def index(request):
     
     if request.method == 'POST':
-        fullname =  request.POST['fullname']
-        useremail = request.POST['useremail']
-        phonenumber = request.POST['phonenumber']
-        records = Visitor.objects.filter(email=useremail)
-        if records.exists():
-            visitor = records[0]
-            if visitor.ischeckedin:
-                messages.warning(request,f'You are already checked in. Please check out in order to check in again.')
-                return redirect('index')
+        host = Host.objects.order_by('-created')
+        if host.exists():
+            fullname =  request.POST['fullname']
+            useremail = request.POST['useremail']
+            phonenumber = request.POST['phonenumber']
+            records = Visitor.objects.filter(email=useremail)
+            if records.exists():
+                visitor = records[0]
+                if visitor.ischeckedin:
+                    messages.warning(request,f'You are already checked in. Please check out in order to check in again.')
+                    return redirect('index')
+            else:
+                visitor = Visitor()
+                visitor.email = useremail
+
+            visitor.name = fullname
+            visitor.phone = phonenumber
+            visitor.checkinrecord()
+            visitor.save()
+
+            message = "Hey a visitor just signed into one of our management product \nHis/her details are- \n\nName- {}, \nEmail- {}, \nContact No- {}\nTime during login- {} IST\n\nTeam Innovacer :)".format(fullname, useremail, phonenumber,visitor.checkin)
+
+            Subject = 'New Visitor'
+            host = Host.objects.order_by('-created')[0]
+            recipients = [host.email]
+            sender = 'gautamprateek21@gmail.com'
+            send_mail(Subject,message,sender,recipients,fail_silently=False)
+
+            return redirect('submittedform',"_".join(fullname.split(' ')), visitor.pk)
         else:
-            visitor = Visitor()
-            visitor.email = useremail
-
-        visitor.name = fullname
-        visitor.phone = phonenumber
-        visitor.checkinrecord()
-        visitor.save()
-
-        message = "Hey a visitor just signed into one of our management product \nHis/her details are- \n\nName- {}, \nEmail- {}, \nContact No- {}\nTime during login- {} IST\n\nTeam Innovacer :)".format(fullname, useremail, phonenumber,visitor.checkin)
-
-        Subject = 'New Visitor'
-        host = Host.objects.order_by('-created')[0]
-        recipients = [host.email]
-        sender = 'gautamprateek21@gmail.com'
-        send_mail(Subject,message,sender,recipients,fail_silently=False)
-
-        return redirect('submittedform',"_".join(fullname.split(' ')), visitor.pk)
+            messages.warning(request,f'Please enter host information first...')
+            return redirect('host')
 
     return render(request,'geekapp/index.html')
 
