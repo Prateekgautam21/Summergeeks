@@ -15,3 +15,13 @@ A very basic management applications that handles a visitor's check-in and check
 10. Paster the url in your browser and BOOM!!! your app is ready to go.
 
 Here are some screenshots of the app-
+
+[Home Page](https://i.imgur.com/2zCnfdF.png)
+[Visitor Info](https://i.imgur.com/d0Aeo2c.png)
+[When visitor checks in](https://i.imgur.com/HPEZH5s.png)
+[End the meeting](https://i.imgur.com/vs3lQyl.png)
+[When visitor checks-out](https://i.imgur.com/rdqe9bm.png)
+
+Example of the mails the host and visitor will get-
+On check-in of visitor, host will get this (mail)[https://i.imgur.com/oc9p2Ha.png]
+On check-out this is mail that visitor will (recieve)[https://i.imgur.com/QpOHr8h.png]
