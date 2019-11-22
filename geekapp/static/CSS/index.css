@@ -21,6 +21,9 @@ body{
     margin: 5px;
     padding: 5px;
 }
+.form-item label{
+    font-weight: bold;
+}    
 .form-item input{
     width: 78%;
     margin-left: 8px;
