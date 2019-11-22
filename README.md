@@ -34,7 +34,7 @@ Example of the mails the host and visitor will get-
 On check-out this is mail that visitor will recieve
 ![recieve](https://i.imgur.com/guIXquO.png)
 
-##Technology Stack-
+## Technology Stack-
 - Django
 - db.sqlite
 - SMTP
