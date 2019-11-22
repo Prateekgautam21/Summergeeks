@@ -16,26 +16,26 @@ A very basic management applications that handles a visitor's check-in and check
 
 Here are some screenshots of the app-
 
-Home Page-
+- Home Page
 ![](https://i.imgur.com/Aj5PjBl.png)
 
-Visitor Info-
+- Visitor Info
 ![](https://i.imgur.com/ncKeCWc.png)
 
-When visitor checks in
+- When visitor checks in
 ![](https://i.imgur.com/g0Xy45O.png)
 
-Asking for email-id when meeting ends-
+- Asking for email-id when meeting ends
 ![](https://i.imgur.com/ivq9375.png)
 
-When visitor checks-out
+- When visitor checks-out
 ![](https://i.imgur.com/23lkwaD.png)
 
-Example of the mails the host and visitor will get-
+- The host will recieve this mail
 
 ![mail](https://i.imgur.com/8DKMiTJ.png)
 
-On check-out this is mail that visitor will recieve
+- On check-out this is mail that visitor will recieve
 ![recieve](https://i.imgur.com/WDOWRUh.png)
 
 ## Technology Stack-
