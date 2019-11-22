@@ -18,12 +18,17 @@ Here are some screenshots of the app-
 
 Home Page-
 ![](https://i.imgur.com/2zCnfdF.png)
-![Visitor Info](https://i.imgur.com/d0Aeo2c.png)
-![When visitor checks in](https://i.imgur.com/HPEZH5s.png)
-![End the meeting](https://i.imgur.com/vs3lQyl.png)
-![When visitor checks-out](https://i.imgur.com/rdqe9bm.png)
+Visitor Info-
+![](https://i.imgur.com/d0Aeo2c.png)
+When visitor checks in
+![](https://i.imgur.com/HPEZH5s.png)
+End the meeting
+![](https://i.imgur.com/vs3lQyl.png)
+When visitor checks-out
+![](https://i.imgur.com/rdqe9bm.png)
 
 Example of the mails the host and visitor will get-
+
 ![mail](https://i.imgur.com/oc9p2Ha.png)
 
 On check-out this is mail that visitor will recieve
